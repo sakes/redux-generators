@@ -9,7 +9,7 @@ Feel free to reference this fork if looking for ideas on how to add your own cus
 ### Basic description of how I am running my own version 
 - Fork [redux-generators](https://github.com/bpxl-labs/redux-generators)
 - git clone your fork of redux-generators
-- modify package.json so that your forked code base will register uniquely with your npm
+- modify package.json so that your forked code base will register uniquely with your npm [reference](https://github.com/sakes/redux-generators/commit/db080ddbf99b25879d200772cd7207412463db6d)
 - run `$ npm link` from the root directory of your forked code base
 
 # Redux Generators
