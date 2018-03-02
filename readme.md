@@ -12,6 +12,9 @@ Feel free to reference this fork if looking for ideas on how to add your own cus
 - modify package.json so that your forked code base will register uniquely with your npm [reference](https://github.com/sakes/redux-generators/commit/db080ddbf99b25879d200772cd7207412463db6d)
 - run `$ npm link` from the root directory of your forked code base
 
+### Examples
+- add a custom template / command [Hello Example](https://github.com/sakes/redux-generators/commit/670029e13470a09f69e1e4d99e11e7ffbe8e29f2)
+
 # Redux Generators
 
 [![npm](https://img.shields.io/npm/v/redux-generators.svg)](https://www.npmjs.com/package/redux-generators)
