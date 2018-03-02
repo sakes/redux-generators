@@ -12,5 +12,6 @@ require('./commands/make-reducer');
 require('./commands/make-action');
 require('./commands/make-selector');
 require('./commands/make-container');
+require('./commands/make-hello');
 
 program.parse(process.argv);

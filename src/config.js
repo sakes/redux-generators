@@ -5,4 +5,5 @@ module.exports = {
   actionTemplate: 'actions.stub',
   selectorTemplate: 'selectors.stub',
   containerTemplate: 'container.stub',
+  helloTemplate: 'hello.stub',
 };

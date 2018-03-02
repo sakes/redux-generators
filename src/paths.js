@@ -14,11 +14,14 @@ const reducerStub = path.join(templatesDir, config.reducerTemplate);
 const actionStub = path.join(templatesDir, config.actionTemplate);
 const selectorStub = path.join(templatesDir, config.selectorTemplate);
 const containerStub = path.join(templatesDir, config.containerTemplate);
+const helloStub = path.join(templatesDir, config.helloTemplate);
+
 
 utils.assert(utils.existsSync(reducerStub), 'Reducer template stub not found.');
 utils.assert(utils.existsSync(actionStub), 'Action template stub not found.');
 utils.assert(utils.existsSync(selectorStub), 'Selector template stub not found.');
 utils.assert(utils.existsSync(containerStub), 'Container template stub not found.');
+utils.assert(utils.existsSync(helloStub), 'Hello template stub not found.');
 
 module.exports = {
   rootDir: config.root,
@@ -28,4 +31,5 @@ module.exports = {
   actionStub,
   selectorStub,
   containerStub,
+  helloStub,
 };
