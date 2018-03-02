@@ -2,7 +2,7 @@
   "name": "wb-rg",
   "version": "1.0.2",
   "description": "A CLI tool for quickly scaffolding scalable Redux applications.",
-  "homepage": "https://github.com/sakes/redux-generators.git",
+  "homepage": "https://github.com/sakes/redux-generators",
   "repository": {
     "type": "git",
     "url": "https://github.com/sakes/redux-generators.git"
