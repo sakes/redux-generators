@@ -1,3 +1,17 @@
+# DO NOT USE - An Experimental Fork of Redux Generators
+
+This is not a supported version of redux-generators, just a place to experiment with customized templates. Please refer to bpxl-labs if looking for [redux-generators](https://github.com/bpxl-labs/redux-generators).
+
+# Feel Free to Reference
+
+Feel free to reference this fork if looking for ideas on how to add your own custom templates to redux-generators.  Early commit messages should provide direction.
+
+### Basic description of how I am running my own version 
+- Fork [redux-generators](https://github.com/bpxl-labs/redux-generators)
+- git clone your fork of redux-generators
+- modify package.json so that your forked code base will register uniquely with your npm
+- run `$ npm link` from the root directory of your forked code base
+
 # Redux Generators
 
 [![npm](https://img.shields.io/npm/v/redux-generators.svg)](https://www.npmjs.com/package/redux-generators)

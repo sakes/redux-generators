@@ -1,24 +1,23 @@
 {
-  "name": "redux-generators",
-  "version": "1.0.1",
+  "name": "wb-rg",
+  "version": "1.0.2",
   "description": "A CLI tool for quickly scaffolding scalable Redux applications.",
-  "homepage": "https://github.com/bpxl-labs/redux-generators",
+  "homepage": "https://github.com/sakes/redux-generators.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bpxl-labs/redux-generators.git"
+    "url": "https://github.com/sakes/redux-generators.git"
   },
   "bugs": {
-    "url": "https://github.com/bpxl-labs/redux-generators/issues"
+    "url": "https://github.com/sakes/redux-generators/issues"
   },
   "main": "bin/redux-generators.js",
   "bin": {
-    "redux-generators": "./bin/redux-generators.js",
-    "rg": "./bin/redux-generators.js"
+    "wb-rg": "./bin/redux-generators.js"
   },
   "engine": {
     "node": ">=4.0.0"
   },
-  "author": "Black Pixel",
+  "author": "Will Barnes",
   "license": "MIT",
   "keywords": [
     "redux",
